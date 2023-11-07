@@ -1,0 +1,16 @@
+@import url(header.css);
+
+:root {
+    --background: #ffffff;
+    --cinza-escuro: #101828;
+    --cinza-texto: #667085;
+    --cinza-logo: #3A404E;
+    --bordo: #8E2424;
+    --cinza-footer: #F9FAFB;
+    --fonte-principal:'Inter', sans-serif;
+
+}
+
+.body {
+    background-color: var(--background);
+}
