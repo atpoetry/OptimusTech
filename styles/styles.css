@@ -1,10 +1,14 @@
-@import url(header.css);
+@import url(nav.css);
+@import url(sobre-nos.css);
+@import url(metricas.css);
+@import url(vagas.css);
 
 :root {
     --background: #ffffff;
     --cinza-escuro: #101828;
     --cinza-texto: #667085;
     --cinza-logo: #3A404E;
+    --cinza-bordas:#EAECF0;
     --bordo: #8E2424;
     --cinza-footer: #F9FAFB;
     --fonte-principal:'Inter', sans-serif;

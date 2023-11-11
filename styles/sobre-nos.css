@@ -1,0 +1,30 @@
+.sobre-nos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10em 32em;
+    text-align: center;
+}
+
+.sobre-nos_bordo {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--bordo);
+    font-family: var(--fonte-principal);
+}
+
+.sobre-nos_titulo {
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--cinza-escuro);
+    font-family: var(--fonte-principal);
+    margin: 0.5em 0;
+}
+
+.sobre-nos_texto {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza-texto);
+    font-family: var(--fonte-principal);
+
+}

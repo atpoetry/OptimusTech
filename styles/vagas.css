@@ -1,0 +1,72 @@
+.vagas_imagem {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fonte-principal);
+    align-items: center;
+    justify-content: space-between;
+    padding: 10em 0 0 5em;
+}
+
+.vagas_balao {
+    background-color: var(--cinza-footer);
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--bordo);
+    width: 7%;
+    text-align: center;
+    padding: 0.7em;
+}
+
+.vagas_titulo {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--cinza-escuro);
+    margin: 0.5em 0;
+}
+
+.vagas_texto {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza-texto);
+    margin-bottom: 2em;
+}
+
+.vagas_opcoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
+    justify-content: space-between;
+}
+
+.vagas_lista-titulo {
+    font-family: var(--fonte-principal);
+    color: var(--cinza-escuro);
+    font-size: 20px;
+    margin: 2em 0em 1em 0;
+}
+
+.vagas_lista {
+    border: 1px solid var(--cinza-bordas);
+    width: 50%;
+    height: 5em;
+    border-radius: 16px;
+    padding: 1em 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.vagas_lista-opcao {
+    font-family: var(--fonte-principal);
+    color: var(--cinza-escuro);
+    font-size: 18px;
+}
+
+.vagas_lista-descricao {
+    font-family: var(--fonte-principal);
+    color: var(--cinza-texto);
+    font-size: 16px;
+}
