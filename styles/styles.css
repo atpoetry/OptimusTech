@@ -2,6 +2,8 @@
 @import url(sobre-nos.css);
 @import url(metricas.css);
 @import url(vagas.css);
+@import url(card.css);
+@import url(footer.css);
 
 :root {
     --background: #ffffff;
@@ -9,6 +11,7 @@
     --cinza-texto: #667085;
     --cinza-logo: #3A404E;
     --cinza-bordas:#EAECF0;
+    --cinza-copy:#98A2B3;
     --bordo: #8E2424;
     --cinza-footer: #F9FAFB;
     --fonte-principal:'Inter', sans-serif;

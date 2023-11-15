@@ -1,0 +1,55 @@
+.footer {
+    font-family: var(--fonte-principal);
+    background-color: var(--cinza-footer);
+    display: flex;
+    flex-direction: column;
+    padding: 3em 0 5em 0;
+    text-align: center;
+}
+
+.footer_titulo {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--cinza-escuro);
+}
+
+.footer_descricao {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--cinza-texto);
+    margin-top: 1em;
+}
+
+.footer_copyright {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cinza-copy);
+}
+
+.footer_botao {
+    background-color: var(--bordo);
+    color: var(--background);
+    border-radius: 8px;
+    padding: 0.8em;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.email {
+    margin: 2em 0;
+}
+
+.footer_email {
+    border: 1px solid var(--cinza-texto);
+    border-radius: 8px;
+    width: 20em;
+    padding: 1em;
+}
+
+.footer_email::placeholder {
+    font-family: var(--fonte-principal);
+    color: var(--cinza-texto);
+    font-size: 16px;
+    font-weight: 400;
+}

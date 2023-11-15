@@ -4,7 +4,7 @@
     font-family: var(--fonte-principal);
     align-items: center;
     justify-content: space-between;
-    padding: 10em 0 0 5em;
+    padding: 10em 0 2em;
 }
 
 .vagas_balao {
@@ -44,7 +44,8 @@
     font-family: var(--fonte-principal);
     color: var(--cinza-escuro);
     font-size: 20px;
-    margin: 2em 0em 1em 0;
+    margin: 2em 0em 1em 24%;
+    align-self: flex-start;
 }
 
 .vagas_lista {
